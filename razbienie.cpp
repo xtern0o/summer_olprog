@@ -19,11 +19,11 @@ int main() {
         int diff_i1 = abs((i1 + 1) * (i1 + 2) / 2 - (i1 + m + 1) * (m - 1) / 2);
         int diff_i2 = abs((i2 + 1) * (i2 + 2) / 2 - (i2 + m + 1) * (m - 1) / 2);
 
-        int h = diff_i1 < diff_i2 ? i1 + 1 : i2 + 1;
+        int h = diff_i1 < diff_i2 ? i1 : i2;
 
-        int a = 1;
-        int b = - 2 * m + n + m * n + 3;
-        int c = - (m * n * n - m * n + 2 * n);
+        int a = m + 1;
+        int b = 1 - 2 * m - n + 2 + m * n;
+        int c = m * n - 2 * n - m * n * n;
         
         int D = b * b - 4 * a * c;
         double j = (-b + pow(D, 0.5)) / 2 / a;
@@ -34,10 +34,10 @@ int main() {
         int diff_j1 = (1 + m * (j1 - 1)) * j1;
         int diff_j2 = (j2 + 1 + m * (n - 1) + 1) * (n - j2);
 
-        int v = diff_j1 < diff_j2 ? j1 + 1 : j2 + 1;
+        int v = diff_j1 < diff_j2 ? j1 : j2;
 
-        if (min(diff_j1, diff_j2) < min(diff_i1, diff_i2)) cout << "V " << v;
-        else cout << "H " << h;
+        if (min(diff_j1, diff_j2) < min(diff_i1, diff_i2)) cout << "H " << v + 1;
+        else cout << "V " << h + 1;
 
         cout << endl;
     }

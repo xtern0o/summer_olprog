@@ -7,7 +7,7 @@ using namespace std;
 const int A = 1e6;
 
 int main() {
-
+    
     // Запоминаем все простые числа до 10^6 заполняя решето Эратосфена
     vector<int> primes;
     vector<bool> is_prime(A + 1, true);

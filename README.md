@@ -1,10 +1,15 @@
-# Второй день
+# Третий день
 
-## Динамическое программирование
- - Задача о рюкзаке
- - [НВП](https://informatics.msk.ru/mod/statements/view.php?chapterid=1792#1)
- - [НОП](https://informatics.msk.ru/mod/statements/view.php?chapterid=1790#1)
- - [Ход конем](https://informatics.msk.ru/mod/statements/view.php?chapterid=2999#1)
+## ЕГЭ. Задание 24
 
-## 1 задача 2 дня региона 2024 (E)
- - [acmp](https://acmp.ru/asp/do/index.asp?main=topic&id_course=3&id_section=24&id_topic=345)
+ > **Необходимый минимум:** строки, срезы, циклы, списочные выражения, 
+
+ - Ссылка на [Google Colab](https://colab.research.google.com/drive/1UNlHD5QiG71vWatoV7_z6_k7xsdF5E_K?usp=sharing)
+
+## Задачи на графы (базовое понимание)
+ - [Удаление клеток](https://informatics.msk.ru/mod/statements/view.php?chapterid=652#1)
+ - [Построение](https://informatics.msk.ru/mod/statements/view.php?chapterid=166#1)
+ - [Циклы через ребра](https://informatics.msk.ru/mod/statements/view.php?chapterid=112824#1) (задача на [поиск мостов](http://www.e-maxx-ru.1gb.ru/algo/bridge_searching))
+  
+# я
+![alt text](image.png)
