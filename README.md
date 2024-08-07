@@ -11,6 +11,8 @@
  - [Удаление клеток](https://informatics.msk.ru/mod/statements/view.php?chapterid=652#1)
  - [Построение](https://informatics.msk.ru/mod/statements/view.php?chapterid=166#1)
  - [Циклы через ребра](https://informatics.msk.ru/mod/statements/view.php?chapterid=112824#1) (задача на [поиск мостов](http://www.e-maxx-ru.1gb.ru/algo/bridge_searching))
+
+## [Задача с региона](https://informatics.msk.ru/mod/statements/view.php?chapterid=114540#1)
   
 # я
 ![alt text](image.png)
