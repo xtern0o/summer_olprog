@@ -1,18 +1,16 @@
-n = int(input())
-bridges = [list(map(int, input().split())) for _ in range(n)]    
-input()
-color = list(map(int, input().split()))
-g = [[] for _ in range(n)]
+s = open("24.3_14642.txt").readline()
+k = 0
+l = 0
+m = 0
+for r in range(len(s)):
+  if s[r] == "F":
+    k += 1
+  
+  while k > 1:
+    if s[l] == "F":
+      k -= 1
+    l += 1
+  
+  m = max(m, r - l + 1)
 
-for i in range(n):
-    for j in range(n):
-        if bridges[i][j] == 1:
-            g[i].append(j)
-
-bad = 0
-for i in range(n):
-    for j in g[i]:
-        if color[i] != color[j]:
-            bad += 1
-
-print(bad // 2)
+print(m)
