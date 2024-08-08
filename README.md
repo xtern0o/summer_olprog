@@ -6,6 +6,7 @@
 
  - Ссылка на [Google Colab](https://colab.research.google.com/drive/1UNlHD5QiG71vWatoV7_z6_k7xsdF5E_K?usp=sharing)
  - Ссылка на [диск с файлами к задачам](https://drive.google.com/drive/folders/1Uew_Tr-_krybbP8QxtOHRCZ11XTl3y5i?usp=sharing)
+  
 
 ## Графы
 
